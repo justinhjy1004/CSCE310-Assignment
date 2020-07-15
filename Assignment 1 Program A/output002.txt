@@ -1,0 +1,28 @@
+Inconsistent Data (0701-46-73T53:53): A: 28.75 B: -28.75
+Inconsistent Data (8187-28-42T47:19): A: 41.79 B: -41.79
+Inconsistent Data (0952-25-61T71:96): A: 22.56 B: -22.56
+Inconsistent Data (0072-67-33T40:99): A: 3.89 B: 13.89
+Inconsistent Data (2198-74-33T61:81): A: 89.82 B: -89.82
+Inconsistent Data (0145-33-12T28:45): A: 2.73 B: 12.73
+Missing Data (5772-02-49T97:45) in data set A but not in B
+Missing Data (5855-86-43T09:89) in data set A but not in B
+Missing Data (5585-15-24T81:39) in data set A but not in B
+Missing Data (7947-71-70T98:01) in data set A but not in B
+Missing Data (6202-27-73T48:52) in data set A but not in B
+Missing Data (7967-18-06T23:43) in data set A but not in B
+Missing Data (3566-23-31T01:56) in data set A but not in B
+Missing Data (6776-21-65T02:26) in data set A but not in B
+Missing Data (3345-86-05T13:34) in data set A but not in B
+Missing Data (3502-49-13T80:59) in data set A but not in B
+Missing Data (2689-09-22T83:21) in data set A but not in B
+Missing Data (3502-49-13T81:59) in data set B but not in A
+Missing Data (7942-71-70T98:01) in data set B but not in A
+Missing Data (1585-15-24T81:39) in data set B but not in A
+Missing Data (5771-02-49T97:45) in data set B but not in A
+Missing Data (3345-96-05T13:34) in data set B but not in A
+Missing Data (2689-09-22T83:11) in data set B but not in A
+Missing Data (6202-27-73T18:52) in data set B but not in A
+Missing Data (3566-23-31T11:56) in data set B but not in A
+Missing Data (7967-18-06T23:13) in data set B but not in A
+Missing Data (6776-21-15T02:26) in data set B but not in A
+Missing Data (5855-86-42T09:89) in data set B but not in A

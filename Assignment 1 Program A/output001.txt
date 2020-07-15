@@ -1,0 +1,3 @@
+Inconsistent Data (2017-01-01T01:00): A: 18.97 B: -25.4
+Missing Data (2017-01-01T03:00) in data set A but not in B
+Missing Data (2017-01-01T07:00) in data set B but not in A
