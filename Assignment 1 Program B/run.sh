@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python ham_path.py "$@"
+python3 ham_path.py "$@"

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python main.py "$1" "$2"
+python3 main.py "$@"
