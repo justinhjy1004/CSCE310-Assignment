@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4919c831-dbdf-4b64-be21-c377217a8c40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program A/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1 Program A/run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program B/Graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program A/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1 Program A/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment 1 Program B/ham_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1 Program B/ham_path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program B/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1 Program B/run.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +178,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Assignment 1 Program A/main.py</url>
-          <line>24</line>
+          <line>29</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">

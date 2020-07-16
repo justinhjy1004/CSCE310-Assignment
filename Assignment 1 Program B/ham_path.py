@@ -1,4 +1,4 @@
-# Author: Justin Ho and Abby Seibel
+# Authors: Justin Ho and Abby Seibel
 # Assignment 1B Brute Force Hamiltonian Path
 
 import sys
