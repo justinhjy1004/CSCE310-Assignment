@@ -1,0 +1,2 @@
+Maximal Clique Size: 6
+Clique: [0, 1, 2, 3, 4, 5]

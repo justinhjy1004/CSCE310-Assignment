@@ -85,11 +85,13 @@ def maximal_cliques(g, pos, shared_vertices, clique, distinct_cliques):
 
 
 if __name__ == "__main__":
-    file_name = sys.argv[1]
+    file_name = '../Assignment 1 Program C/input002.txt'
 
     g = construct_graph(file_name)
 
-    # iterate through every vertex as the first position in path
+
+    '''
+       # iterate through every vertex as the first position in path
     for v in g.graph.keys():
         solution = ham_path(g, v, g.vertex_num, path=[])
         if solution is not None: # breaks once solution is found
@@ -99,31 +101,27 @@ if __name__ == "__main__":
         print("No Hamiltonian Paths")
     else:
         print(solution)
-
-    # Maximal Cliques Problem
     '''
+
+
     distinct_cliques = []
     
     for v in g.graph.keys():
         maximal_cliques(g, v, g.graph.get(v, []), set(), distinct_cliques)
-        
+
 
     for c in distinct_cliques:
-    if c not in solution:
-        solution.append(c)
-
-    for c in solution:
         print(c)
+
+    print(len(distinct_cliques))
     '''
 
-
-    # Distinct Simple Paths Problem
-    '''
     distinct_path = []
-    distinct_paths(g, 1 , 6, [], distinct_path)
+    distinct_paths(g, 1 , 5, [], distinct_path)
 
     for p in distinct_path:
         print(p)
-    '''
 
+    print(len(distinct_path))
 
+'''
