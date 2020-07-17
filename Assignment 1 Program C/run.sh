@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python3 max_clique.py "$@"
+python3 max_c.py "$@"

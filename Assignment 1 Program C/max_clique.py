@@ -35,7 +35,7 @@ def construct_graph(file):
 def maximal_clique(g, position, max_clique, clique, solution):
     #absolute base case
     for v in clique:
-        if position not in g.graph.get(v, []): # Return if vertex is not a neighbour of one of the clique vertex
+        if position not in g.graph.get(v, []) and v not in g.graph.get(position,[]): # Return if vertex is not a neighbour of one of the clique vertex
             return
 
     # add vertex to clique
@@ -52,14 +52,15 @@ def maximal_clique(g, position, max_clique, clique, solution):
         max_clique = clique
         solution.append(max_clique)
 
+    new_clique = [i for i in clique]
     # based on the index of the position, iterate the rest of the values in the list
     for v in range(position, len(g.graph.keys())):
-        if v not in clique:
-            maximal_clique(g, v, max_clique, clique, solution)
+        if v not in new_clique:
+            maximal_clique(g, v, max_clique, new_clique, solution)
 
 
 if __name__ == "__main__":
-    file_name = sys.argv[1]
+    file_name = 'input001.txt'
 
     g = construct_graph(file_name)
 
