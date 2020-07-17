@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4919c831-dbdf-4b64-be21-c377217a8c40" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program B/ham_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1 Program B/ham_path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program C/input002.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1 Program C/input002.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program C/max_clique.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1 Program C/max_clique.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program C/output001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1 Program C/output001.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program B/output001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1 Program B/output001.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program C/max_c.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1 Program C/max_c.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment 1 Program C/output002.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1 Program C/output002.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program C/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1 Program C/run.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +42,7 @@
       <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 1 Program C" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ham_path (1)">
+  <component name="RunManager" selected="Python.max_c">
     <configuration name="ham_path (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CSCE310 Data Structures and Algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,9 +150,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.max_c" />
         <item itemvalue="Python.ham_path (1)" />
         <item itemvalue="Python.max_clique (1)" />
-        <item itemvalue="Python.max_c" />
         <item itemvalue="Python.max_clique" />
         <item itemvalue="Python.ham_path" />
       </list>
@@ -192,22 +188,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594658225153" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1595016200914">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1595018672018">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595016200914" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1595016200914">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595018672018" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1595018672018">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595016200914" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1595016200914">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595018672018" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1595018672018">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595016200914" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1595016200914">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595018672018" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1595018672018">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595016200914" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595018672018" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1595012261718">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -69,4 +69,6 @@ if __name__ == "__main__":
     for k in range(0,len(solutions)):
         if len(solutions[k]) > len(max_solution):
             max_solution = solutions[k]
-    print (max_solution)
+
+    print("Max Clique: %s" % max_solution)
+    print("Clique size: %d" % len(max_solution))
