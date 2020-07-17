@@ -1,5 +1,6 @@
 # Authors: Justin Ho and Abby Seibel
-# Assignment 1B Brute Force Hamiltonian Path
+# Assignment 1C Max cliques
+
 from copy import deepcopy
 import sys
 
@@ -32,19 +33,18 @@ def construct_graph(file):
     return g
 
 
+## max_clique is given a graph, and then returns a list of solutions of all the cliques in the Graph
 def max_clique(g, original, subset, index, solutions):
     for i in range(index+1, len(original)):
         isClique = True
         deepCopy = deepcopy(subset)
         for v in deepCopy:
+            #checks that the element of the graph that may be added has at least 1 edge that connects it to v
            if original[i] not in g.graph.get(v,[]) and v not in g.graph.get(original[i],[]) :
                isClique = False
         if isClique:
             deepCopy.append(original[i])
             solutions.append(deepCopy)
-            #if len(deepCopy) > len(maximum):
-             #   maximum = deepCopy
-             #   print(maximum)
             max_clique(g, original, deepCopy, i, solutions)
 
     return
@@ -65,6 +65,7 @@ if __name__ == "__main__":
 
     max_solution = []
 
+    #Finds the largest function within the solutions
     for k in range(0,len(solutions)):
         if len(solutions[k]) > len(max_solution):
             max_solution = solutions[k]
