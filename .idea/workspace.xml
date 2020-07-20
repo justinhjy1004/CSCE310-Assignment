@@ -2,9 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4919c831-dbdf-4b64-be21-c377217a8c40" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program B/output001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1 Program B/output001.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program C/max_c.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1 Program C/max_c.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program C/output002.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1 Program C/output002.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program A/input001.a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program A/input001.a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program A/input001.b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program A/input001.b.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program A/input002.a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program A/input002.a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program A/input002.b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program A/input002.b.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program A/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program A/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program A/output001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program A/output001.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program A/output002.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program A/output002.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program A/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program A/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program B/ham_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program B/ham_path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program B/input001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program B/input001.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program B/input002.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program B/input002.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program B/output001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program B/output001.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program B/output002.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program B/output002.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program B/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program B/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program C/input001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/input001.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program C/input002.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/input002.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program C/max_c.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/max_c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program C/max_clique.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/max_clique.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program C/output001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/output001.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program C/output002.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/output002.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1 Program C/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/run.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,89 +207,93 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594658225153" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1595018672018">
+    <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1595088840745">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595018672018" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1595018672018">
+    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595088840745" />
+    <state width="1345" height="223" key="GridCell.Tab.0.center" timestamp="1595088840745">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595018672018" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1595018672018">
+    <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595088840745" />
+    <state width="1345" height="223" key="GridCell.Tab.0.left" timestamp="1595088840745">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595018672018" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1595018672018">
+    <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595088840745" />
+    <state width="1345" height="223" key="GridCell.Tab.0.right" timestamp="1595088840745">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595018672018" />
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1595012261718">
+    <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595088840745" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1595088840746">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595012261718" />
-    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1595012261717">
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595088840746" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1595088840746">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1595012261717" />
-    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1595012261717">
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1595088840746" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1595088840745">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1595012261717" />
-    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1595012261718">
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1595088840745" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1595088840746">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1595012261718" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1595088840746" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1595203496584">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1595203496584" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Assignment 1 Program A/main.py</url>
+          <url>file://$PROJECT_DIR$/Assignment 1/Assignment 1 Program A/main.py</url>
           <line>29</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Assignment 1 Program C/max_clique.py</url>
+          <url>file://$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/max_clique.py</url>
           <line>37</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Assignment 1 Program C/max_clique.py</url>
+          <url>file://$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/max_clique.py</url>
           <line>45</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Assignment 1 Program C/max_clique.py</url>
+          <url>file://$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/max_clique.py</url>
           <line>46</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Assignment 1 Program C/max_clique.py</url>
+          <url>file://$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/max_clique.py</url>
           <line>50</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Assignment 1 Program C/max_clique.py</url>
+          <url>file://$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/max_clique.py</url>
           <line>51</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Assignment 1 Program C/max_clique.py</url>
+          <url>file://$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/max_clique.py</url>
           <line>52</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Assignment 1 Program C/max_clique.py</url>
+          <url>file://$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/max_clique.py</url>
           <line>56</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Assignment 1 Program C/max_clique.py</url>
+          <url>file://$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/max_clique.py</url>
           <line>57</line>
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Assignment 1 Program C/max_clique.py</url>
+          <url>file://$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/max_clique.py</url>
           <line>58</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
