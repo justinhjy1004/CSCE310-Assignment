@@ -16,19 +16,20 @@ def bin_exp(a, n, m):
 
     # traverse from the second last to the first bit string
     for i in range(len(bit_str_n)-1):
-        term = term * term
+        term = (term * term) % m
         if bit_str_n[len(bit_str_n) - 2 - i] == '1': # if bit value is 1, multiply to the solution
-            solution = solution * term
+            solution = (solution * term) %m
 
-    return solution % m
+    return solution
 
-def bin_exp_2(a,n):
+def bin_exp_2(a,n,m):
     solution = 1
+    term = a
 
     while(n > 0):
+        term = (a*a )%m
         if(n & 1):
-            solution = solution * a
-        a = a*a
+            solution = (solution * a)%m
         n = n >> 1
 
     return solution
