@@ -1,3 +1,7 @@
+#Abby Seibel and Justin Ho
+# CSCE 310 Summer course
+# Program A
+
 import sys
 
 def bin_exp(a, n, m):
@@ -23,27 +27,32 @@ def bin_exp(a, n, m):
     return solution
 
 def bin_exp_2(a,n,m):
-    solution = 1
     term = a
+    if(n&1):
+        solution =a
+    else:
+        solution = 1
 
-    while(n > 0):
-        term = (a*a )%m
-        if(n & 1):
-            solution = (solution * a)%m
-        n = n >> 1
+    while n>0:
+        n = n>>1
+        term = (term*term)%m
+        if (n & 1):
+            solution = (solution*term)%m
+
 
     return solution
 
 
 if __name__ == "__main__":
-    
+
     if(len(sys.argv) != 4):
         print("Incorrect number of inputs!")
         sys.exit()
 
-    a = sys.argv[1]
-    n = sys.argv[2]
-    m = sys.argv[3]
+    a = int(sys.argv[1])
+    n = int(sys.argv[2])
+    m = int(sys.argv[3])
 
 
+    print(bin_exp_2(a,n,m))
     print(bin_exp(a,n,m))
