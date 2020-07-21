@@ -3,27 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4919c831-dbdf-4b64-be21-c377217a8c40" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program A/input001.a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program A/input001.a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program A/input001.b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program A/input001.b.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program A/input002.a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program A/input002.a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program A/input002.b.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program A/input002.b.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program A/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program A/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program A/output001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program A/output001.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program A/output002.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program A/output002.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program A/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program A/run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program B/ham_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program B/ham_path.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program B/input001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program B/input001.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program B/input002.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program B/input002.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program B/output001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program B/output001.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program B/output002.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program B/output002.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program B/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program B/run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program C/input001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/input001.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program C/input002.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/input002.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program C/max_c.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/max_c.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program C/max_clique.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/max_clique.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program C/output001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/output001.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program C/output002.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/output002.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1 Program C/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/run.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,15 +32,37 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignment 1 Program B" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 1 Program C" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 1 Program B" />
       <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 1 Program C" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 1" />
+      <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 1 Program C" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.max_c">
+  <component name="RunManager" selected="Python.Russian Peasant Multiplication">
+    <configuration name="Russian Peasant Multiplication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CSCE310 Data Structures and Algorithms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Russian Peasant Multiplication.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ham_path (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CSCE310 Data Structures and Algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,27 +76,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment 1 Program B/ham_path.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ham_path" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CSCE310 Data Structures and Algorithms" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment 1 Program B" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 1 Program B\ham_path.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="max_clique" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="median" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CSCE310 Data Structures and Algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,11 +134,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment 1 Program B" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment 2/Median Element" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 1 Program C\max_clique.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment 2/Median Element/median.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Russian Peasant Multiplication" />
+        <item itemvalue="Python.median" />
         <item itemvalue="Python.max_c" />
         <item itemvalue="Python.ham_path (1)" />
         <item itemvalue="Python.max_clique (1)" />
-        <item itemvalue="Python.max_clique" />
-        <item itemvalue="Python.ham_path" />
       </list>
     </recent_temporary>
   </component>
@@ -207,38 +187,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594658225153" />
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1595088840745">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1595219884916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595088840745" />
-    <state width="1345" height="223" key="GridCell.Tab.0.center" timestamp="1595088840745">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595219884916" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1595219884916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595088840745" />
-    <state width="1345" height="223" key="GridCell.Tab.0.left" timestamp="1595088840745">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595219884916" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1595219884916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595088840745" />
-    <state width="1345" height="223" key="GridCell.Tab.0.right" timestamp="1595088840745">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595219884916" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1595219884916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595088840745" />
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1595088840746">
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595219884916" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1595218443824">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595088840746" />
-    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1595088840746">
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595218443824" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1595218443824">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1595088840746" />
-    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1595088840745">
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1595218443824" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1595218443824">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1595088840745" />
-    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1595088840746">
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1595218443824" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1595218443824">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1595088840746" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1595218443824" />
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1595203496584">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -296,6 +276,41 @@
           <url>file://$PROJECT_DIR$/Assignment 1/Assignment 1 Program C/max_clique.py</url>
           <line>58</line>
           <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment 2/Median Element/median.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment 2/Median Element/median.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment 2/Median Element/median.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment 2/Median Element/median.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment 2/Median Element/median.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment 2/Median Element/median.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment 2/Median Element/median.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="86" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
