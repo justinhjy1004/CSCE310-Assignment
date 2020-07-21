@@ -9,7 +9,7 @@ def rus_multiplication(x,y):
         return y
 
     while(x != 1):
-        if x % 2 == 0:
+        if not(x & 1):
             x = x >> 1
             y = y << 1
         else:
