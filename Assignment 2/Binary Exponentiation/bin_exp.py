@@ -33,25 +33,24 @@ def bin_exp_2(a,n,m):
     else:
         solution = 1
 
-    while n>0:
-        n = n>>1
-        term = (term*term)%m
+    while n > 0:
+        n = n >> 1
+        term = (term * term) % m
         if (n & 1):
-            solution = (solution*term)%m
-
+            solution = (solution * term) % m
 
     return solution
 
 if __name__ == "__main__":
 
-    if(len(sys.argv) != 4):
-        print("Incorrect number of inputs!")
-        sys.exit()
+    file = open(sys.argv[1], 'r')
+    input = file.readline().split(' ')
 
-    a = int(sys.argv[1])
-    n = int(sys.argv[2])
-    m = int(sys.argv[3])
+    a = int(input[0])
+    n = int(input[1])
+    m = int(input[2])
 
 
-    print(bin_exp_2(a,n,m))
+    # print(bin_exp_2(a,n,m))
+
     print(bin_exp(a,n,m))
