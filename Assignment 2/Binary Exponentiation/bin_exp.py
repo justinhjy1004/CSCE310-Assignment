@@ -33,9 +33,8 @@ def bin_exp_2(a,n):
 
     return solution
 
-
 if __name__ == "__main__":
-    
+
     if(len(sys.argv) != 4):
         print("Incorrect number of inputs!")
         sys.exit()
