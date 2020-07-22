@@ -43,13 +43,9 @@ def bin_exp_2(a,n,m):
 
 if __name__ == "__main__":
 
-    file = open(sys.argv[1], 'r')
-    input = file.readline().split(' ')
-
-    a = int(input[0])
-    n = int(input[1])
-    m = int(input[2])
-
+    a = int(sys.argv[1])
+    n = int(sys.argv[3])
+    m = int(sys.argv[2])
 
     # print(bin_exp_2(a,n,m))
 

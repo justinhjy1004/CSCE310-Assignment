@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4919c831-dbdf-4b64-be21-c377217a8c40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment 2/Binary Exponentiation/input001.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 2/Binary Exponentiation/output002.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 2/Linear Systems/Gaussian Elimination.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 2/Linear Systems/input001.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 2/Linear Systems/input002.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 2/Linear Systems/input003.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 2/Linear Systems/output001.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 2/Linear Systems/output002.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 2/Linear Systems/output003.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment 2/Binary Exponentiation/bin_exp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 2/Binary Exponentiation/bin_exp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 2/Binary Exponentiation/input001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 2/Binary Exponentiation/input001.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +40,8 @@
       <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 1 Program C" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 2\Linear Systems" />
+      <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 2\Binary Exponentiation" />
       <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 1 Program B" />
       <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 1 Program C" />
     </key>
@@ -198,22 +192,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594658225153" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1595455605338">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1595456413470">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595455605338" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1595455605338">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595456413470" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1595456413470">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595455605338" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1595455605338">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595456413470" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1595456413470">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595455605338" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1595455605338">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595456413470" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1595456413470">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595455605338" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595456413470" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1595452435767">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -359,42 +353,42 @@
           <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Assignment 2/Linear Systems/Gaussian Elimination.py</url>
+          <url>file://$PROJECT_DIR$/Assignment 2/Linear Systems/gauss_elim.py</url>
           <line>75</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Assignment 2/Linear Systems/Gaussian Elimination.py</url>
+          <url>file://$PROJECT_DIR$/Assignment 2/Linear Systems/gauss_elim.py</url>
           <line>78</line>
           <option name="timeStamp" value="98" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Assignment 2/Linear Systems/Gaussian Elimination.py</url>
+          <url>file://$PROJECT_DIR$/Assignment 2/Linear Systems/gauss_elim.py</url>
           <line>82</line>
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Assignment 2/Linear Systems/Gaussian Elimination.py</url>
+          <url>file://$PROJECT_DIR$/Assignment 2/Linear Systems/gauss_elim.py</url>
           <line>81</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Assignment 2/Linear Systems/Gaussian Elimination.py</url>
+          <url>file://$PROJECT_DIR$/Assignment 2/Linear Systems/gauss_elim.py</url>
           <line>83</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Assignment 2/Linear Systems/Gaussian Elimination.py</url>
+          <url>file://$PROJECT_DIR$/Assignment 2/Linear Systems/gauss_elim.py</url>
           <line>93</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Assignment 2/Linear Systems/Gaussian Elimination.py</url>
+          <url>file://$PROJECT_DIR$/Assignment 2/Linear Systems/gauss_elim.py</url>
           <line>97</line>
           <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Assignment 2/Linear Systems/Gaussian Elimination.py</url>
+          <url>file://$PROJECT_DIR$/Assignment 2/Linear Systems/gauss_elim.py</url>
           <line>98</line>
           <option name="timeStamp" value="104" />
         </line-breakpoint>
