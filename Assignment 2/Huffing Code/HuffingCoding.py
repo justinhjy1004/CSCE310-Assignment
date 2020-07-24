@@ -39,8 +39,18 @@ class Node(object):
 
 
 # The tree class holds a root of the tree
-class Tree(self):
-    def __init__(self)
+class Tree(object):
+    def __init__(self):
+        self.root = None
+
+    #this function sets the root of the tree
+    def setRoot(self,root):
+        self.root = root
+
+    def getRootWeight(self):
+        return self.root.getWeight()
+
+
 
 # this funciton opens the file, and then creates an dictionary that maps the characters with their frequecy in the file
 def parse_text(file):
@@ -69,3 +79,8 @@ def parse_text(file):
 
 if __name__ == "__main__":
     frequency = parse_text(sys.argv[1])
+
+    for key in frequency:
+        singleNodeTree = Tree()
+        singleNodeTree.setRoot(Node(frequency[key], key))
+        # insert into Heap when we figure that out
