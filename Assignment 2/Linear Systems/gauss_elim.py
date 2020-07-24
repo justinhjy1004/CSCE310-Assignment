@@ -1,3 +1,7 @@
+# Abby Seibel and Justin Ho
+# CSCE 310 Summer course
+# Program B
+
 import math
 import sys
 
