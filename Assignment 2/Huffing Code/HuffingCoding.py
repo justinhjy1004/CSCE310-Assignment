@@ -41,7 +41,7 @@ class Node(object):
 # The tree class holds a root of the tree
 class Tree(object):
     def __init__(self):
-        self.root = None
+        self.root = Node(None, None)
 
     #this function sets the root of the tree
     def setRoot(self,root):
@@ -49,6 +49,9 @@ class Tree(object):
 
     def getRootWeight(self):
         return self.root.getWeight()
+
+    def setRootWeight(self, weight):
+        self.weight = weight
 
 
 
@@ -83,4 +86,6 @@ if __name__ == "__main__":
     for key in frequency:
         singleNodeTree = Tree()
         singleNodeTree.setRoot(Node(frequency[key], key))
-        # insert into Heap when we figure that out
+        # insert into Heap when we figure that
+
+    #while #heapSize > 1 :
