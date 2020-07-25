@@ -135,10 +135,6 @@ class Huff_Tree(object):
         else:
             return False
 
-    def get_leaves(self):
-
-    def in_order_traversal(self, next_node, leaves = []):
-
 def parse_text(file, char_composition):
     f = open(file, 'r', encoding="utf-8")
 

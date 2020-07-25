@@ -1,12 +1,12 @@
 # Abby Seibel and Justin Ho
-#CSCE 310
-# Assigment 2 problem C
-# Huffing coding
-import sys
+# CSCE310
+# Assignment 2 Problem C
+# Huffman Coding
 
+import sys
 import heapq as hq
 
-#This class holds the node of a tree, and has the ways to access the node and the nodes connected to it
+# This class holds the node of a tree, and has the ways to access the node and the nodes connected to it
 class Node(object):
     def __init__(self, weight, charVal):
         self.left = None
@@ -40,13 +40,12 @@ class Node(object):
         return self.charVal
 
 
-
-# The tree class holds a root of the tree
+# The tree class holds a root of a Huffman Tree
 class Tree(object):
     def __init__(self):
         self.root = Node(None, 0)
 
-    #this function sets the root of the tree
+    # this function sets the root of the tree
     def setRoot(self,root):
         self.root = root
 
@@ -56,6 +55,7 @@ class Tree(object):
     def setRootWeight(self, weight):
         self.root.weight = weight
 
+    # comparator operators
     def __eq__(self, other):
         if self.root.getWeight() == other.root.getWeight():
             return True
@@ -80,12 +80,14 @@ class Tree(object):
 
 
 # this funciton opens the file, and then creates an dictionary that maps the characters with their frequecy in the file
+# returns a tuple containing frequency of characters and number of total characters
 def parse_text(file):
     count = 0
-    f = open(file, "r")
+    f = open(file, "r", encoding = "utf-8")
 
     dictionary = {}
-    #counts the number of occurances of each character, and only puts present characters into the dictionary
+
+    # counts the number of occurences of each character, and only puts present characters into the dictionary
     while 1:
         c = f.read(1)
         if not c:
@@ -97,24 +99,26 @@ def parse_text(file):
             dictionary[c] = 1
     f.close()
 
-    #calculautes the frequecy ratio of each element in the dictionary
+    # calculates the frequency ratio of each element in the dictionary
     for key in dictionary:
         dictionary[key] = dictionary[key]/count
 
-    return dictionary
+    return (dictionary, count)
 
-
+# Input: dictionary containing letters and the relative frequency in the file
+# Output: Huffman Tree
 def construct_tree(frequency):
 
     heap = []
 
+    # add single Node Huffman Tree into Heap
     for key in frequency:
         singleNodeTree = Tree()
         singleNodeTree.setRoot(Node(frequency[key], key))
         hq.heappush(heap, singleNodeTree)
 
+    # combine Huffman Trees into a single Huffman tree
     while len(heap) > 1:
-
         T_r = Tree()
         a = hq.heappop(heap)
         b = hq.heappop(heap)
@@ -125,7 +129,10 @@ def construct_tree(frequency):
 
     return hq.heappop(heap)
 
-
+# UNUSED!!! Need Corrections!
+# Using a stack for in order traversal
+# Input: Huffman Tree, using in order traversal to output dictionary with codewords
+# Output: dictionary with codewords
 def tree_walk(codeTree):
     stack = []
     stackString = []
@@ -154,20 +161,73 @@ def tree_walk(codeTree):
                 stackString.pop()
             current = current.getRightChild()
             stackString.append(1)
+
     return codeWords
 
+# Input: Huffman Tree
+# Output: dictionary with code words
+# Using a recursive call, perform in order traversal to obtain a dictionary of codewords
+def code_builder(huffman_tree):
+    codeWords = {}
+    root = huffman_tree.getRoot()
+    currentCode = ''
 
+    code_builder_recursive(root, currentCode, codeWords)
 
+    return codeWords
+
+# Recursive algorithm to build dictionary of code word
+def code_builder_recursive(root, currentCode, codeWords):
+    if root == None:
+        return
+
+    if root.getChar() != None:
+        codeWords[root.getChar()] = currentCode
+
+    code_builder_recursive(root.getLeftChild(), currentCode + "0", codeWords)
+    code_builder_recursive(root.getRightChild(), currentCode + "1", codeWords)
+
+# INPUT: frequency dictionary, code words dictionary and number of total characters
+# OUTPUT: prints compression information in standard output
+def print_output(frequency, codeWords, num_char):
+    headline = "Character".rjust(9) + "Codeword".rjust(25) + "Frequency".rjust(15)
+    print(headline)
+
+    avg_codeWord_len = 0
+
+    for charVal in frequency.keys():
+        charVal_formatted = repr(charVal).rjust(9)
+        codeWords_formatted = str(codeWords[charVal]).rjust(25)
+        freq_formatted = str(str(round(frequency[charVal]*100,4)) + '%').rjust(15)
+        print(charVal_formatted + codeWords_formatted + freq_formatted)
+        avg_codeWord_len = avg_codeWord_len + len(codeWords[charVal]) * frequency[charVal]
+
+    og_size = num_char * 8
+    encoded_size = num_char * avg_codeWord_len
+    ratio = round((avg_codeWord_len/8)*100, 3)
+
+    print()
+    print("Average Codeword Length: %.3f bits" % avg_codeWord_len)
+    print("Original Size (bits): %d " % og_size)
+    print("Encoding Size (bits): %.0f" % encoded_size)
+    print("Compression Ratio: %.3f" % ratio + "%")
 
 if __name__ == "__main__":
 
-    frequency = parse_text(sys.argv[1])
+    # parse text
+    text_info = parse_text(sys.argv[1])
 
-    print(frequency)
+    # frequency dictionary
+    frequency = text_info[0]
 
+    # number of characters in text file
+    num_char = text_info[1]
 
-
+    # Obtain Huffman Tree
     codeTree = construct_tree(frequency)
-    codeWords = tree_walk(codeTree)
 
-    print(codeWords)
+    # codeword dictionary
+    codeWords = code_builder(codeTree)
+
+    print_output(frequency, codeWords, num_char)
+
