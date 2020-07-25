@@ -129,40 +129,6 @@ def construct_tree(frequency):
 
     return hq.heappop(heap)
 
-# UNUSED!!! Need Corrections!
-# Using a stack for in order traversal
-# Input: Huffman Tree, using in order traversal to output dictionary with codewords
-# Output: dictionary with codewords
-def tree_walk(codeTree):
-    stack = []
-    stackString = []
-    codeWords = {}
-    current = codeTree.getRoot()
-
-
-    while len(stack)>0 or current is not None:
-        if current is not None and current.getChar() == 0:
-            stack.append(current)
-            current = current.getLeftChild()
-            stackString.append(0)
-        else:
-
-            if current.getChar() != 0:
-                tempString = ""
-                for i in range (len(stackString)):
-                    tempString = tempString + str(stackString[i])
-                codeWords[current.getChar()] = tempString
-            if len(stack)>0:
-                current = stack.pop()
-            if stackString[len(stackString)-1]  == 1 and len(stackString) > 1:
-                stackString.pop()
-                stackString.pop()
-            else:
-                stackString.pop()
-            current = current.getRightChild()
-            stackString.append(1)
-
-    return codeWords
 
 # Input: Huffman Tree
 # Output: dictionary with code words
