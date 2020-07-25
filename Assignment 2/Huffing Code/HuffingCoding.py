@@ -4,7 +4,7 @@
 # Huffing coding
 import sys
 
-from heapq import heapify, heappush, heappop
+import heapq as hq
 
 #This class holds the node of a tree, and has the ways to access the node and the nodes connected to it
 class Node(object):
@@ -36,12 +36,15 @@ class Node(object):
     def getWeight(self):
         return self.weight
 
+    def getChar(self):
+        return self.charVal
+
 
 
 # The tree class holds a root of the tree
 class Tree(object):
     def __init__(self):
-        self.root = Node(None, None)
+        self.root = Node(None, 0)
 
     #this function sets the root of the tree
     def setRoot(self,root):
@@ -51,7 +54,28 @@ class Tree(object):
         return self.root.getWeight()
 
     def setRootWeight(self, weight):
-        self.weight = weight
+        self.root.weight = weight
+
+    def __eq__(self, other):
+        if self.root.getWeight() == other.root.getWeight():
+            return True
+        else:
+            return False
+
+    def __lt__(self, other):
+        if self.root.getWeight() < other.root.getWeight():
+            return True
+        else:
+            return False
+
+    def __le__(self, other):
+        if self.root.getWeight() <= other.root.getWeight():
+            return True
+        else:
+            return False
+
+    def getRoot(self):
+        return self.root
 
 
 
@@ -80,12 +104,70 @@ def parse_text(file):
     return dictionary
 
 
-if __name__ == "__main__":
-    frequency = parse_text(sys.argv[1])
+def construct_tree(frequency):
+
+    heap = []
 
     for key in frequency:
         singleNodeTree = Tree()
         singleNodeTree.setRoot(Node(frequency[key], key))
-        # insert into Heap when we figure that
+        hq.heappush(heap, singleNodeTree)
 
-    #while #heapSize > 1 :
+    while len(heap) > 1:
+
+        T_r = Tree()
+        a = hq.heappop(heap)
+        b = hq.heappop(heap)
+        T_r.root.setLeftChild(a.getRoot())
+        T_r.root.setRightChild(b.getRoot())
+        T_r.setRootWeight(a.getRootWeight() + b.getRootWeight())
+        hq.heappush(heap, T_r)
+
+    return hq.heappop(heap)
+
+
+def tree_walk(codeTree):
+    stack = []
+    stackString = []
+    codeWords = {}
+    current = codeTree.getRoot()
+
+
+    while len(stack)>0 or current is not None:
+        if current is not None and current.getChar() == 0:
+            stack.append(current)
+            current = current.getLeftChild()
+            stackString.append(0)
+        else:
+
+            if current.getChar() != 0:
+                tempString = ""
+                for i in range (len(stackString)):
+                    tempString = tempString + str(stackString[i])
+                codeWords[current.getChar()] = tempString
+            if len(stack)>0:
+                current = stack.pop()
+            if stackString[len(stackString)-1]  == 1 and len(stackString) > 1:
+                stackString.pop()
+                stackString.pop()
+            else:
+                stackString.pop()
+            current = current.getRightChild()
+            stackString.append(1)
+    return codeWords
+
+
+
+
+if __name__ == "__main__":
+
+    frequency = parse_text(sys.argv[1])
+
+    print(frequency)
+
+
+
+    codeTree = construct_tree(frequency)
+    codeWords = tree_walk(codeTree)
+
+    print(codeWords)
