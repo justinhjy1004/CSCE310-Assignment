@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4919c831-dbdf-4b64-be21-c377217a8c40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignment 3/Kruskal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 3/BFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/BFS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 3/DFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/DFS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 3/graph_representation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/graph_representation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 2/Huffing Code/HuffingCoding.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 2/Huffing Code/HuffingCoding.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
