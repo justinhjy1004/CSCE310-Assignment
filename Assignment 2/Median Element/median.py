@@ -31,12 +31,12 @@ def find_median(array, og_length, adj_index=0):
 
     # base case, returns the value of the index when the
     # middle index of the"sorted" array is found
-    if m + adj_index == math.floor(og_length/2):
+    if m + adj_index == math.ceil(og_length/2):
         return(array[m])
 
     # if the index of the sorted value is bigger than the median
     # find median at the left half of the array
-    if m + adj_index > math.floor(og_length/2):
+    if m + adj_index > math.ceil(og_length/2):
         return find_median(array[:m], og_length, adj_index)
     # find the median at the right half of the array
     else:
@@ -47,10 +47,10 @@ def find_median(array, og_length, adj_index=0):
 if __name__ == "__main__":
 
     array = []
-    for i in range(500):
+    for i in range(123):
         array.append(random.randint(0,1000))
 
     print(len(array))
     print(array)
-    print(sorted(array)[math.floor(len(array)/2)])
+    print(sorted(array)[math.ceil(len(array)/2)])
     print(find_median(array, len(array)))
