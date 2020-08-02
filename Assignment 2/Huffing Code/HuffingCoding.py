@@ -129,6 +129,10 @@ def construct_tree(frequency):
 
     return hq.heappop(heap)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 582de321aae6f47f52385b105589b0e2abbccdd9
 # Input: Huffman Tree
 # Output: dictionary with code words
 # Using a recursive call, perform in order traversal to obtain a dictionary of codewords
