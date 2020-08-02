@@ -1,6 +1,7 @@
 import graph_representation as gr
 
-
+# Returns list according to the visit order of the graph using BFS given graph
+# Visits the edge in the order of least weight
 def BFS_Main(graph:gr.Graph):
     graph.reset()
     count = [0]

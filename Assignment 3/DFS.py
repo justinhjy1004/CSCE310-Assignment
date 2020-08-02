@@ -1,5 +1,13 @@
+# Abby Seibel and Justin Ho
+# CSCE310
+# Assignment 3
+# Graph Algorithms: DFS
+
 import graph_representation as gr
 
+# stack based implementation of DFS
+# Returns list according to the visit order of the graph using DFS given graph
+# Visits the next smallest node value
 def DFS_stack(graph:gr.Graph):
     visit_order = []
     graph.reset()

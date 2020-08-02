@@ -1,3 +1,12 @@
+# Abby Seibel and Justin Ho
+# CSCE310
+# Assignment 3
+# Graph Algorithms
+# Graph Data Structure
+
+# Node/Vertex used in Graph
+# Contains values, visited, processed and its time stamp
+# sort by value
 class Node(object):
     def __init__(self, value):
         self.value = value
@@ -63,7 +72,10 @@ class Node(object):
         else:
             return False
 
-
+# Edge representation for Graph
+# Since it is undirected, node_1 and node_2 are not arranged in any order
+# Holds a weight value and sorts by weight
+# Holds metadata for included (Kruskal, Prim and Djikstra's?)
 class Edge(object):
     def __init__(self, node_1, node_2, weight):
         self.node_1 = node_1
@@ -116,6 +128,11 @@ class Edge(object):
         else:
             return False
 
+# Graph representation
+# Undirected but weighted
+# Contains list of nodes and list of edges
+# Primary representation using adjacency list
+# Node values are assumed to be integers
 class Graph(object):
     def __init__(self, num_vertices):
         self.nodes = []
@@ -135,21 +152,23 @@ class Graph(object):
     def get_edge_list(self):
         return self.edges
 
+    # given value of node, locate the address of the node holding the value
     def get_node(self, value):
         for n in self.nodes:
             if n.get_value() == value:
                 return n
 
-    def add_edge(self, v1, v2, weight):
-        node1 = self.get_node(v1)
-        node2 = self.get_node(v2)
+    def add_edge(self, value_1, value_2, weight):
+        node1 = self.get_node(value_1)
+        node2 = self.get_node(value_2)
         e = Edge(node1,node2,weight)
         self.edges.append(e)
         self.adj_list[node1].append((node2, weight))
         self.adj_list[node2].append((node1, weight))
 
-    def get_edges(self, v1):
-        node = self.get_node(v1)
+    # given node value, get node address and returns all edges of the node
+    def get_edges(self, value):
+        node = self.get_node(value)
         edges = []
         for e in self.edges:
             if node == e.get_nodes()[0] or node == e.get_nodes()[1]:
@@ -157,8 +176,9 @@ class Graph(object):
 
         return edges
 
-    def neighbour(self, v):
-        node = self.get_node(v)
+    # gets neighbours of node given node value
+    def neighbour(self, value):
+        node = self.get_node(value)
         neighbour_node = []
         for n in self.adj_list[node]:
             neighbour_node.append(n[0])
@@ -171,6 +191,7 @@ class Graph(object):
         for e in self.edges:
             e.reset()
 
+    # prints adjacency list of graph
     def print(self):
         for u in self.nodes:
             print("%d --> " % u.get_value(), end = '')
