@@ -193,7 +193,6 @@ class Graph(object):
             print()
 
 def cycle_detection(graph):
-    visit_order = []
     graph.reset()
     count = 1
     stack = []
@@ -202,7 +201,6 @@ def cycle_detection(graph):
     stack.append(start_node)
     start_node.set_time_visited(count)
     start_node.visit()
-    visit_order.append(start_node.get_value())
 
     while len(stack) != 0:
         count = count + 1
@@ -221,10 +219,8 @@ def cycle_detection(graph):
         else:
             stack.append(y)
             y.visit()
-            visit_order.append(y.get_value())
             y.set_time_visited(count)
 
-    return visit_order
 
 
 def Kruskal(graph:gr.Graph):
