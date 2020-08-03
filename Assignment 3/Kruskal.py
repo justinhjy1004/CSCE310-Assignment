@@ -192,48 +192,41 @@ class Graph(object):
                 print("%d" % v[0].get_value(), end = ' ')
             print()
 
-def cycle_detection(graph):
-    visit_order = []
-    graph.reset()
-    count = 1
-    stack = []
+def cycle_detection(edge, cycle_set):
 
-    start_node = graph.get_node(0)
-    stack.append(start_node)
-    start_node.set_time_visited(count)
-    start_node.visit()
-    visit_order.append(start_node.get_value())
+    u = edge.get_nodes()[0].get_value()
+    v = edge.get_nodes()[1].get_value()
+    if not(u in cycle_set and v in cycle_set):
+        cycle_set.add(u)
+        cycle_set.add(v)
+        return False
+    else:
+        return True
 
-    while len(stack) != 0:
-        count = count + 1
-        x = stack[-1]
-        x_neighbours = sorted(graph.neighbour(x.get_value()))
-        y = None
-        for n in x_neighbours:
-            if not n.is_visited() and not n.is_processed():
-                y = n
-                break
-
-        if y is None:
-            stack.pop()
-            x.process()
-            x.set_time_processed(count)
-        else:
-            stack.append(y)
-            y.visit()
-            visit_order.append(y.get_value())
-            y.set_time_visited(count)
-
-    return visit_order
 
 
 def Kruskal(graph:gr.Graph):
     edge_list = sorted(graph.get_edge_list())
-    graph_t = gr.Graph(graph.num_vertices())
-    k = 0
-    while len(graph_t.get_edge_list()) < graph_t.num_vertices() - 1:
+    weight = 0
+    k = 1
+    x = edge_list[0].get_nodes()[0].get_value()
+    y = edge_list[0].get_nodes()[1].get_value()
+    w = edge_list[0].get_weight()
+    cycle_set ={x,y}
+    edge_set = {(x,y,w)}
+    weight = w
+    while len(edge_set)< graph.num_vertices() - 1:
         u = edge_list[k].get_nodes()[0].get_value()
         v = edge_list[k].get_nodes()[1].get_value()
         w = edge_list[k].get_weight()
-        if not cycle_detection(graph_t.add_edge(u,v,w)):
+        if not cycle_detection(edge_list[k], cycle_set):
+            edge_set.add((u,v,w))
+            weight += w
+        k += 1
 
+    return (weight, edge_set)
+
+if __name__ == "__main__":
+    g = gr.parse_graph("input002.txt")
+    k = Kruskal(g)
+    print(k)
