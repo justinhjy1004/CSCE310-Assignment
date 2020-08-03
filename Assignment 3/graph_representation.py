@@ -128,6 +128,9 @@ class Edge(object):
         else:
             return False
 
+    def __str__(self):
+        return str("(%d, %d, %.2f)" % (self.node_1.get_value(), self.node_2.get_value(), self.weight))
+
 # Graph representation
 # Undirected but weighted
 # Contains list of nodes and list of edges
@@ -166,6 +169,14 @@ class Graph(object):
         self.adj_list[node1].append((node2, weight))
         self.adj_list[node2].append((node1, weight))
 
+    def remove_edge(self,value_1,value_2, weight):
+        node1 = self.get_node(value_1)
+        node2 = self.get_node(value_2)
+        e = Edge(node1, node2, weight)
+        self.edges.pop(self.edges.index(e))
+        self.adj_list[node1].pop(self.adj_list[node1].index((node2, weight)))
+        self.adj_list[node2].pop(self.adj_list[node2].index((node1, weight)))
+
     # given node value, get node address and returns all edges of the node
     def get_edges(self, value):
         node = self.get_node(value)
@@ -198,6 +209,14 @@ class Graph(object):
             for v in self.adj_list[u]:
                 print("%d" % v[0].get_value(), end = ' ')
             print()
+
+    def print_edges(self):
+        total_weight = 0
+        for e in self.edges:
+            total_weight = total_weight + e.get_weight()
+            print(e)
+        print("Total Weight: %.2f" % (total_weight))
+
 
 def parse_graph(file):
     f = open(file, "r")
