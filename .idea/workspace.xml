@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4919c831-dbdf-4b64-be21-c377217a8c40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment 3/input002.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 3/input003.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 3/input004.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 3/BFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/BFS.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment 3/Kruskal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/Kruskal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 3/graph_representation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/graph_representation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,8 +159,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Kruskal" />
-        <item itemvalue="Python.graph_representation" />
         <item itemvalue="Python.BFS" />
+        <item itemvalue="Python.graph_representation" />
         <item itemvalue="Python.DFS" />
         <item itemvalue="Python.median" />
       </list>
@@ -197,38 +196,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596429904359" />
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1596476261215">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1596478581284">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596476261215" />
-    <state width="1345" height="223" key="GridCell.Tab.0.center" timestamp="1596476261215">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596478581284" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1596478581284">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596476261215" />
-    <state width="1345" height="223" key="GridCell.Tab.0.left" timestamp="1596476261215">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596478581284" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1596478581284">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596476261215" />
-    <state width="1345" height="223" key="GridCell.Tab.0.right" timestamp="1596476261215">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596478581284" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1596478581284">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596476261215" />
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1596476262537">
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596478581284" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1596478328652">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596476262537" />
-    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1596476262537">
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596478328652" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1596478328651">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1596476262537" />
-    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1596476262537">
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1596478328651" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1596478328651">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1596476262537" />
-    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1596476262537">
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1596478328651" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1596478328652">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1596476262537" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1596478328652" />
     <state x="184" y="7" key="SettingsEditor" timestamp="1596390800770">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -415,6 +414,31 @@
           <url>file://$PROJECT_DIR$/Assignment 3/Kruskal.py</url>
           <line>63</line>
           <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment 3/BFS.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment 3/BFS.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment 3/Kruskal.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment 3/Kruskal.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment 3/Kruskal.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="142" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

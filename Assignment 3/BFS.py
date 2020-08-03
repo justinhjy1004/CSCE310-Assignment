@@ -5,11 +5,14 @@ import graph_representation as gr
 def BFS_Main(graph:gr.Graph):
     graph.reset()
     count = [0]
+    tree_num = 0
     visit_order = []
     for n in graph.get_node_list():
         if not n.is_visited() and not n.is_processed():
+            tree_num = tree_num + 1
             BFS(graph, n, count, visit_order)
 
+    print(tree_num)
     return visit_order
 
 def BFS(graph: gr.Graph, n:gr.Node, count, visit_order):
