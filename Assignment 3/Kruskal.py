@@ -56,25 +56,12 @@ def Kruskal(graph:gr.Graph):
 
     return g
 
-def MST_type(mst:gr.Graph):
-    mst.reset()
-    tree_num = 0
-    count = [0]
-    visit_order = []
-    for n in mst.get_node_list():
-        if not n.is_visited() and not n.is_processed():
-            neighbours = mst.neighbour(n.get_value())
-            if set(neighbours).intersection(set(visit_order)) == set():
-                tree_num = tree_num + 1
-            bfs.BFS(mst, n, count, visit_order)
-
-    if tree_num == 1:
-        print("Type: Full Spanning Tree")
-    else:
-        print("Type: Minimum Spanning Forests")
 
 if __name__ == "__main__":
     graph = gr.parse_graph("input004.txt")
     g = Kruskal(graph)
     g.print_edges()
-    MST_type(g)
+    if len(g.get_edge_list()) == g.num_vertices()-1:
+        print("Type: Full Spaning Tree")
+    else:
+        print("Type: Minimum Spanning Forest")
