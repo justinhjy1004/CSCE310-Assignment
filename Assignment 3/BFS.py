@@ -12,7 +12,6 @@ def BFS_Main(graph:gr.Graph):
             tree_num = tree_num + 1
             BFS(graph, n, count, visit_order)
 
-    print(tree_num)
     return visit_order
 
 def BFS(graph: gr.Graph, n:gr.Node, count, visit_order):
@@ -24,7 +23,7 @@ def BFS(graph: gr.Graph, n:gr.Node, count, visit_order):
     queue.append(n)
 
     while len(queue) != 0:
-        x = queue[-1]
+        x = queue[0]
         x_edges = sorted(graph.get_edges(x.get_value()))
         for e in x_edges:
             y = e.get_nodes()[0]
