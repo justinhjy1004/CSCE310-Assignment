@@ -98,12 +98,6 @@ class Edge(object):
     def reset(self):
         self.included = False
 
-    def __eq__(self, other):
-        if self.weight == other.weight:
-            return True
-        else:
-            return False
-
     def __le__(self, other):
         if self.weight <= other.weight:
             return True
@@ -172,7 +166,7 @@ class Graph(object):
     def remove_edge(self,value_1,value_2, weight):
         node1 = self.get_node(value_1)
         node2 = self.get_node(value_2)
-        e = Edge(node1, node2, weight)
+        e = self.get_edge(value_1, value_2)
         self.edges.pop(self.edges.index(e))
         self.adj_list[node1].pop(self.adj_list[node1].index((node2, weight)))
         self.adj_list[node2].pop(self.adj_list[node2].index((node1, weight)))
@@ -186,6 +180,17 @@ class Graph(object):
                 edges.append(e)
 
         return edges
+
+    def get_edge(self, value1, value2):
+        edges1 = self.get_edges(value1)
+        edges2 = self.get_edges(value2)
+
+        edge = set(edges1).intersection(set(edges2))
+
+        if edge == set():
+            return None
+        else:
+            return list(edge)[0]
 
     # gets neighbours of node given node value
     def neighbour(self, value):
@@ -234,5 +239,5 @@ def parse_graph(file):
     return g
 
 if __name__ == "__main__":
-    g = parse_graph("input001.txt")
+    g = parse_graph("input_given.txt")
     g.print()

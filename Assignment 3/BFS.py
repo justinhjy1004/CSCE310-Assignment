@@ -42,7 +42,7 @@ def BFS(graph: gr.Graph, n:gr.Node, count, visit_order):
         z.set_time_processed(count[0])
 
 if __name__ == "__main__":
-    g = gr.parse_graph("input001.txt")
+    g = gr.parse_graph("input_given.txt")
     visit_order = BFS_Main(g)
 
     results = []
