@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4919c831-dbdf-4b64-be21-c377217a8c40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment 3/FloydWarshall.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 3/input_given.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 3/BFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/BFS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 3/DFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/DFS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 3/graph_representation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/graph_representation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 3/input001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/input001.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 3/input003.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 3/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 3/output001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/output001.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 3/output002.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/output002.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 3/FloydWarshall.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/FloydWarshall.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +48,7 @@
       <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 1 Program C" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.dijkstras">
     <configuration name="BFS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CSCE310 Data Structures and Algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="graph_representation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dijkstras" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CSCE310 Data Structures and Algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,7 +124,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment 3/graph_representation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment 3/dijkstras.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dijkstras" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.FloydWarshall" />
         <item itemvalue="Python.Kruskal" />
         <item itemvalue="Python.BFS" />
-        <item itemvalue="Python.graph_representation" />
       </list>
     </recent_temporary>
   </component>
@@ -203,22 +194,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596429904359" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1596558324415">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1596570376898">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596558324415" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1596558324415">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596570376898" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1596570376897">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596558324415" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1596558324415">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596570376897" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1596570376897">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596558324415" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1596558324415">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596570376897" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1596570376897">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596558324415" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596570376897" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1596557942290">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -409,32 +400,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Assignment 3/FloydWarshall.py</url>
-          <line>56</line>
-          <option name="timeStamp" value="143" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Assignment 3/FloydWarshall.py</url>
-          <line>90</line>
+          <line>112</line>
           <option name="timeStamp" value="145" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Assignment 3/FloydWarshall.py</url>
-          <line>92</line>
+          <line>114</line>
           <option name="timeStamp" value="146" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Assignment 3/FloydWarshall.py</url>
-          <line>84</line>
+          <line>106</line>
           <option name="timeStamp" value="147" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Assignment 3/FloydWarshall.py</url>
-          <line>81</line>
+          <line>102</line>
           <option name="timeStamp" value="148" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Assignment 3/FloydWarshall.py</url>
-          <line>80</line>
+          <line>101</line>
           <option name="timeStamp" value="149" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
