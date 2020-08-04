@@ -186,6 +186,13 @@ class Graph(object):
                 edges.append(e)
 
         return edges
+    def get_edge(self, value1,value2):
+        node1 = self.get_node(value1)
+        node2 = self.get_node(value2)
+        for e in self.edges:
+            if (node1 == e.get_nodes()[0] and node2 == e.get_nodes()[1]) or (node1 == e.get_nodes()[1] and node2 == e.get_nodes()[0]) :
+                return e
+        return None
 
     # gets neighbours of node given node value
     def neighbour(self, value):
