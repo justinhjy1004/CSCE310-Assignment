@@ -3,6 +3,7 @@ import graph_representation as gr
 import BFS
 import DFS
 import Kruskal
+import FloydWarshall as fw
 
 if __name__ == "__main__":
     graph = gr.parse_graph(sys.argv[1])
@@ -12,7 +13,7 @@ if __name__ == "__main__":
         print(e)
     print()
 
-    visit_order = DFS.DFS_stack(graph)
+    visit_order = DFS.DFS_main(graph)
     print("Depth First Traversal (vertex visited order):")
     print(visit_order)
     print()
@@ -27,9 +28,16 @@ if __name__ == "__main__":
     print(results)
     print()
 
+    print("Minimum Spanning Tree:")
     g = Kruskal.Kruskal(graph)
     g.print_edges()
     if len(g.get_edge_list()) == g.num_vertices()-1:
         print("Type: Full Spanning Tree")
     else:
         print("Type: Minimum Spanning Forest")
+
+    print()
+    print("Shortest Path:")
+    m = fw.matrix_setup(graph)
+    m = fw.floyd_warshall(m, graph)
+    fw.build_path(m, graph)
