@@ -65,14 +65,14 @@ def dynamic_knapsack(table, weights, values):
             j = j - weights[i-1]
             i-=1
 
-    print("Maximum Capacity: W = %d" % len(table[0]))
+    print("Maximum Capacity: W = %d" % (len(table[0]) - 1))
     print("Optimal Weight: %.2f" % optimal_weight)
     print("Optimal Value: %.2f" %table[len(table)-1][len(table[0])-1])
     print("Original Knapsack Items: " + str(og_knapsack))
     print("Optimal Knapsack Items: " + str(optimal))
 
 if __name__ == "__main__":
-    filename = "input001.txt"
+    filename = sys.argv[1]
     prepared_table = table_setup(filename)
     table = prepared_table[0]
     weight_array = prepared_table[1]

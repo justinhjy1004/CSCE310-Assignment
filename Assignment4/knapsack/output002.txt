@@ -5,7 +5,7 @@ Tableau:
 [0, 0, 4, 10, 10, 14, 14, 14, 14, 14, 17]
 [0, 0, 4, 10, 10, 14, 14, 14, 14, 18, 18]
 [0, 0, 4, 10, 10, 14, 14, 14, 14, 18, 18]
-Maximum Capacity: W = 11
+Maximum Capacity: W = 10
 Optimal Weight: 9.00
 Optimal Value: 18.00
 Original Knapsack Items: {(4, 4, 4), (5, 7, 8), (3, 5, 3), (1, 3, 10), (2, 2, 4)}

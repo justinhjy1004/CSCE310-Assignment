@@ -40,7 +40,7 @@ def max_clique(g, original, subset, index, solutions):
         deepCopy = deepcopy(subset)
         for v in deepCopy:
             #checks that the element of the graph that may be added has at least 1 edge that connects it to v
-           if original[i] not in g.graph.get(v,[]) and v not in g.graph.get(original[i],[]) :
+           if original[i] not in g.graph.get_cost(v, []) and v not in g.graph.get_cost(original[i], []) :
                isClique = False
         if isClique:
             deepCopy.append(original[i])

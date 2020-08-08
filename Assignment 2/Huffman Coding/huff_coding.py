@@ -153,10 +153,10 @@ def parse_text(file, char_composition):
         if char not in char_composition.keys():
             char_composition[char] = 1
         else:
-            char_composition[char] = char_composition.get(char) + 1
+            char_composition[char] = char_composition.get_cost(char) + 1
 
     for char in char_composition.keys():
-        char_composition[char] = char_composition.get(char)/num_char
+        char_composition[char] = char_composition.get_cost(char) / num_char
 
     f.close()
 

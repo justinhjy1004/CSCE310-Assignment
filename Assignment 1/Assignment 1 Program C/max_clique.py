@@ -35,7 +35,7 @@ def construct_graph(file):
 def maximal_clique(g, position, max_clique, clique, solution):
     #absolute base case
     for v in clique:
-        if position not in g.graph.get(v, []) and v not in g.graph.get(position,[]): # Return if vertex is not a neighbour of one of the clique vertex
+        if position not in g.graph.get_cost(v, []) and v not in g.graph.get_cost(position, []): # Return if vertex is not a neighbour of one of the clique vertex
             return
 
     # add vertex to clique

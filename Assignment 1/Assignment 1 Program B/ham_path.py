@@ -49,7 +49,7 @@ def ham_path(g, pos, num_vertices, path=[]):
             return path
 
         # assess each neighbour of the current vertex
-        for newPos in g.graph.get(pos, []):
+        for newPos in g.graph.get_cost(pos, []):
             if newPos not in path: # ensure uniqueness of each vertex
                 curr_path = [i for i in path] # deep copy of path
                 new_path = ham_path(g, newPos, num_vertices, curr_path) # try new path using position

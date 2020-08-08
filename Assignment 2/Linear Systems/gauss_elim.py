@@ -79,7 +79,7 @@ def upper_triangularization(matrix):
         # set pivot value to be larger values
         pivot_row = i
         for j in range(i,matrix.dim()[1]-1):
-            if math.fabs(matrix.get(j,i)) > math.fabs(matrix.get(pivot_row, i)):
+            if math.fabs(matrix.get_cost(j, i)) > math.fabs(matrix.get_cost(pivot_row, i)):
                 pivot_row = j
 
         # exchange rows for matrix
@@ -90,17 +90,17 @@ def upper_triangularization(matrix):
         # row reductions
         for j in range(i,matrix.dim()[0]-1):
             # obtain coefficient for row reduction
-            if matrix.get(i,i) == 0:
+            if matrix.get_cost(i, i) == 0:
                 coeff = 0
             else:
-                a = matrix.get(j+1,i)
-                b = matrix.get(i,i)
+                a = matrix.get_cost(j + 1, i)
+                b = matrix.get_cost(i, i)
                 coeff = a / b
 
             # compute row reduced values
             for k in range(i, matrix.dim()[1]):
-                new_val = matrix.get(j+1,k) - matrix.get(i,k)*coeff
-                matrix.set(j+1,k,new_val)
+                new_val = matrix.get_cost(j + 1, k) - matrix.get_cost(i, k) * coeff
+                matrix.set_cost(j + 1, k, new_val)
 
     return matrix
 
@@ -108,8 +108,8 @@ def upper_triangularization(matrix):
 def backward_substitution(matrix):
     for i in range(matrix.dim()[0]):
         # get the pivot and augmented value starting from the last row
-        pivot = matrix.get(matrix.dim()[0] - i - 1, matrix.dim()[0] - i - 1)
-        aug_val = matrix.get(matrix.dim()[0] - i - 1, matrix.dim()[1] - 1)
+        pivot = matrix.get_cost(matrix.dim()[0] - i - 1, matrix.dim()[0] - i - 1)
+        aug_val = matrix.get_cost(matrix.dim()[0] - i - 1, matrix.dim()[1] - 1)
         # Assessment of the type of solution
         if pivot == 0:
             if aug_val == 0: # Infinitely many solutions
@@ -120,16 +120,16 @@ def backward_substitution(matrix):
                 return 1
 
         # normalize values
-        matrix.set(matrix.dim()[0] - i - 1, matrix.dim()[0] - i - 1, 1)
+        matrix.set_cost(matrix.dim()[0] - i - 1, matrix.dim()[0] - i - 1, 1)
         norm_aug_val = aug_val / pivot
-        matrix.set(matrix.dim()[0] - i - 1, matrix.dim()[1] - 1, norm_aug_val)
+        matrix.set_cost(matrix.dim()[0] - i - 1, matrix.dim()[1] - 1, norm_aug_val)
 
         # perform backward substitution starting from the pivot value of the last row
         for j in range(matrix.dim()[0] - 1 - i):
-            coeff = matrix.get(j, matrix.dim()[0] - i - 1)
-            matrix.set(j, matrix.dim()[0] - i - 1, 0)
-            new_aug_val = matrix.get(j, matrix.dim()[1] - 1) - norm_aug_val*coeff
-            matrix.set(j, matrix.dim()[1] - 1, new_aug_val)
+            coeff = matrix.get_cost(j, matrix.dim()[0] - i - 1)
+            matrix.set_cost(j, matrix.dim()[0] - i - 1, 0)
+            new_aug_val = matrix.get_cost(j, matrix.dim()[1] - 1) - norm_aug_val * coeff
+            matrix.set_cost(j, matrix.dim()[1] - 1, new_aug_val)
 
     return matrix
 
