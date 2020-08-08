@@ -156,12 +156,13 @@ class Graph(object):
                 return n
 
     def add_edge(self, value_1, value_2, weight):
-        node1 = self.get_node(value_1)
-        node2 = self.get_node(value_2)
-        e = Edge(node1,node2,weight)
-        self.edges.append(e)
-        self.adj_list[node1].append((node2, weight))
-        self.adj_list[node2].append((node1, weight))
+        if self.get_edge(value_1, value_2) is None:
+            node1 = self.get_node(value_1)
+            node2 = self.get_node(value_2)
+            e = Edge(node1,node2,weight)
+            self.edges.append(e)
+            self.adj_list[node1].append((node2, weight))
+            self.adj_list[node2].append((node1, weight))
 
     def remove_edge(self,value_1,value_2, weight):
         node1 = self.get_node(value_1)
@@ -180,13 +181,6 @@ class Graph(object):
                 edges.append(e)
 
         return edges
-    def get_edge(self, value1,value2):
-        node1 = self.get_node(value1)
-        node2 = self.get_node(value2)
-        for e in self.edges:
-            if (node1 == e.get_nodes()[0] and node2 == e.get_nodes()[1]) or (node1 == e.get_nodes()[1] and node2 == e.get_nodes()[0]) :
-                return e
-        return None
 
     def get_edge(self, value1, value2):
         edges1 = self.get_edges(value1)

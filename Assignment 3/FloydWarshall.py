@@ -37,7 +37,7 @@ def build_path(adj_matrix, graph:gr.Graph):
     n = len(adj_matrix)
 
     for i in range(n):
-        for j in range(n):
+        for j in range(i,n):
             if i == j:
                 continue
             else:
@@ -55,7 +55,7 @@ def build_path(adj_matrix, graph:gr.Graph):
                 else:
                     print(None, end='')
                 print()
-                print("Path weight: %.2f" % (total_weight))
+                print("\tPath weight: %.2f" % (total_weight))
                 print()
 
 '''

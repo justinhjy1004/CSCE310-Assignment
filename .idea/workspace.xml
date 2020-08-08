@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4919c831-dbdf-4b64-be21-c377217a8c40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignment4/knapsack/input002.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment4/knapsack/output001.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment4/knapsack/output002.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment4/knapsack/run.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment 3/FloydWarshall.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/FloydWarshall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 3/graph_representation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/graph_representation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 3/output001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/output001.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 3/output002.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/output002.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment4/knapsack/input.001.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment4/knapsack/input001.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment4/knapsack/knapsack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment4/knapsack/knapsack.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,46 +39,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignment 3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ComputationalThinking/Optimization/Knapsack Problem/Memoization.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 3" />
-      <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 2\Huffing Code" />
-      <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 2\Linear Systems" />
-      <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 2\Binary Exponentiation" />
-      <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 1 Program B" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 2" />
       <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 2\Linear Systems" />
       <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 1" />
       <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 1 Program C" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment4\knapsack" />
+      <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 3" />
+      <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 2\Huffing Code" />
+      <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 2\Linear Systems" />
+      <recent name="C:\Users\JHo99\PycharmProjects\CSCE310 Data Structures and Algorithms\Assignment 2\Binary Exponentiation" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.dijkstras">
-    <configuration name="BFS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CSCE310 Data Structures and Algorithms" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment 3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment 3/BFS.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.knapsack">
     <configuration name="FloydWarshall" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CSCE310 Data Structures and Algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,6 +121,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="knapsack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CSCE310 Data Structures and Algorithms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment4/knapsack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment4/knapsack/knapsack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CSCE310 Data Structures and Algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dijkstras" />
+        <item itemvalue="Python.knapsack" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.FloydWarshall" />
+        <item itemvalue="Python.dijkstras" />
         <item itemvalue="Python.Kruskal" />
-        <item itemvalue="Python.BFS" />
       </list>
     </recent_temporary>
   </component>
@@ -190,50 +199,50 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1596429904359">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1596830752939">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596429904359" />
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1596570376898">
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596830752939" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1596891619693">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596570376898" />
-    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1596570376897">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596891619693" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1596891619693">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596570376897" />
-    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1596570376897">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596891619693" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1596891619693">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596570376897" />
-    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1596570376897">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596891619693" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1596891619693">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596570376897" />
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1596557942290">
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596891619693" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1596637157618">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596557942290" />
-    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1596557942290">
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596637157618" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1596637157618">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1596557942290" />
-    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1596557942290">
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1596637157618" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1596637157618">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1596557942290" />
-    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1596557942290">
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1596637157618" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1596637157618">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1596557942290" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1596637157618" />
     <state x="184" y="7" key="SettingsEditor" timestamp="1596390800770">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596390800770" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1596426753021">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1596830247915">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1596426753021" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1596830247915" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
