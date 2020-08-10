@@ -1,0 +1,3 @@
+Original Word: tattarrattat
+Palindrome: tattarrattat
+Length: 12
